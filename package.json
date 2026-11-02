@@ -1,8 +1,18 @@
 {
-  "name": "galina-calendar-mcp",
-  "version": "1.0.0",
-  "private": true,
+  "name": "gcal-mcp",
+  "version": "1.1.0",
+  "private": false,
   "type": "module",
+  "description": "MCP-сервер Google Calendar: события, календари, цвета, серии, OAuth в браузере",
+  "license": "MIT",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "doctor": "node scripts/doctor.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.32.2"
   }
